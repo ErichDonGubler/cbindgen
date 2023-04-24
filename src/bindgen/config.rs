@@ -20,6 +20,7 @@ pub const VERSION: &str = env!("CARGO_PKG_VERSION");
 /// A language type to generate bindings for.
 #[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub enum Language {
+    // asdf
     Cxx,
     C,
     Cython,
